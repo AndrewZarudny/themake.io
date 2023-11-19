@@ -57,6 +57,7 @@
 
 .p-form-select > select {
   -webkit-appearance: none;
+  appearance: none;
   background: var(--p-input-bg);
   border: 1px solid var(--p-input-bd);
   border-radius: 5px;
@@ -102,6 +103,7 @@
 .p-form-text-alt {
   color: var(--p-input-color);
   -webkit-appearance: none;
+  appearance: none;
   box-shadow: none;
   background: var(--p-input-bg);
   border: 0px;
@@ -137,6 +139,7 @@
 
 textarea.p-form-text {
   -webkit-appearance: none;
+  appearance: none;
   height: 100px;
 }
 
@@ -473,7 +476,8 @@ input[type=range].p-form-range {
   width: 100%;
   margin: 11.5px 0;
   background-color: transparent;
-  -webkit-appearance: none;
+  appearance: none;
+/* Add your CSS code here */
 }
 input[type=range].p-form-range:focus {
   outline: none;
