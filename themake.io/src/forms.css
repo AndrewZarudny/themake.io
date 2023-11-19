@@ -88,6 +88,7 @@
 .p-form-text {
   color: var(--p-input-color);
   -webkit-appearance: none;
+  appearance: none;
   box-shadow: none;
   background: var(--p-input-bg);
   border: 1px solid var(--p-input-bd);
@@ -97,7 +98,6 @@
   outline: 0;
   padding: 10px 5px;
   resize: none;
-  transition: border-color 200ms;
 }
 
 .p-form-text-alt {
@@ -311,6 +311,7 @@ textarea.p-form-text {
 
 .p-form-button {
   -webkit-appearance: none;
+  appearance: none;
   background: #fff;
   border: 1px solid var(--p-input-bd);
   border-radius: 5px;
