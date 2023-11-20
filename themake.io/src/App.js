@@ -1,40 +1,28 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Form from './components/form';
 
-import './components/global.js';
+const Andrew = {
+  name: 'Andrew',
+  lastname: 'Zarudnyi',
+  title: 'Project Manager / E-Commerce Specialist',  
+  email: 'andrew@themake.io',
+  summary: '',
+  description:'',
+  image: 'https://avatars.git'
+}
 
 function App() {
   return (
-
     <div className="App">
-      <header className="App-header">
-      <div>
-          <ul>
-            <li>
-             
-            </li>
-            <li>
-             
-            </li>
-            <li>
-             
-            </li>
-          </ul>
-        </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> mand save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-      </header>
+      <Header person={Andrew}/>
+      <div className='row'>
+        <div className='col-6'>
+          <Form />
+          </div>
+      </div>
+      
     </div>
   );
 }
