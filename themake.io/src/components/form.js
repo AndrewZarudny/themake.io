@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-
-
+import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+
 function Form() {
   const [state, handleSubmit] = useForm("xrgwvooq");
   if (state.succeeded) {
